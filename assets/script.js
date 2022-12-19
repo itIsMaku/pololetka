@@ -10,7 +10,7 @@ function typeWrite(id, text, speed, callback) {
   }
 }
 
-typeWrite("name", "Adam Volkman", 75, () => {
+typeWrite("name", "Adam Volkman", 175, () => {
     current = 0;
-    typeWrite("nick", "maku", 50, () => {});
+    typeWrite("nick", "maku", 100, () => {});
 });

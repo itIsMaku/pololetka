@@ -22,3 +22,41 @@ h1 {
 .section-title {
     font-weight: 500;
 }
+
+section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.bg-p {
+    background-color: #141321;
+}
+
+.bg-s {
+    background-color: #252430;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+.exp-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.exp {
+    padding-top: 0.8%;
+}
+
+.project {
+    border-radius: 5px;
+    padding: 20px;
+    height: 100%;
+}
+

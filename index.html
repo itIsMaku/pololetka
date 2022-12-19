@@ -14,7 +14,7 @@
     <link href="./assets/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="container text-center">
+    <header id="header" class="container text-center">
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
@@ -23,7 +23,7 @@
               <img
                 class="rounded"
                 src="./assets/logo.png"
-                alt="Bootstrap"
+                alt="x"
                 width="64"
                 height="64"
               /> </a
@@ -31,8 +31,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link" aria-current="page" href="#header"
                     >Index</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#aboutme"
+                    >About me</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#experiences"
+                    >Experiences</a
                   >
                 </li>
               </ul>
@@ -50,9 +60,193 @@
         </div>
       </div>
     </header>
-    <section class="container">
+    <section id="aboutme" class="bg-s">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="section-title">About me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, <b>consectetuer adipiscing</b> elit.
+              Ut tempus purus at lorem. Etiam sapien elit, consequat eget,
+              tristique non, venenatis quis, ante. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              In laoreet, magna id viverra tincidunt, sem odio bibendum justo,
+              vel imperdiet sapien wisi sed libero. Vivamus luctus egestas leo.
+              Nunc dapibus tortor vel mi dapibus sollicitudin. Nulla non lectus
+              sed nisl molestie malesuada. Sed ut perspiciatis unde omnis iste
+              natus error sit voluptatem accusantium doloremque laudantium,
+              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+              quasi architecto beatae vitae dicta sunt explicabo. Aliquam erat
+              volutpat. Morbi scelerisque luctus velit. Nam sed tellus id magna
+              elementum tincidunt. Aenean placerat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experiences" class="container">
       <div class="row">
-        <h2 class="section-title">About me</h2>
+        <div class="col-4"></div>
+        <div class="col-8">
+          <h2 class="section-title text-right">Experiences</h2>
+          <div class="exp" id="java" style="padding-top: 0%">
+            <h5>
+              <img src="./assets/experiences/java.png" class="exp-icon" /> Java
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 95%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="lua">
+            <h5>
+              <img src="./assets/experiences/lua.png" class="exp-icon" /> Lua
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 90%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="ts">
+            <h5>
+              <img src="./assets/experiences/ts.svg" class="exp-icon" />
+              TypeScript
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 50%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="php">
+            <h5>
+              <img src="./assets/experiences/php.png" class="exp-icon" /> PHP
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 5%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="git">
+            <h5>
+              <img src="./assets/experiences/git.png" class="exp-icon" /> Git
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="mysql">
+            <h5>
+              <img src="./assets/experiences/mysql.png" class="exp-icon" />
+              MySQL
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="mysql">
+            <h5>
+              <img src="./assets/experiences/postgresql.png" class="exp-icon" />
+              PostgreSQL
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 40%"
+              ></div>
+            </div>
+          </div>
+          <div class="exp" id="redis">
+            <h5>
+              <img src="./assets/experiences/redis.png" class="exp-icon" />
+              Redis
+            </h5>
+            <div class="progress">
+              <div
+                class="progress-bar bg-s progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 100%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="bg-s">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+            <h2 class="section-title text-left">Experiences</h2>
+
+            <div class="col">
+              <div class="project bg-p">
+                <img
+                  src="./assets/projects/matherion.webp"
+                  style="height: 60%; width: 50%"
+                />
+                <h5>Matherion</h5>
+                <p>Czechoslovakia Minecraft server founded in 2020</p>
+                <img src="./assets/experiences/java.png" class="exp-icon" />
+                <img src="./assets/experiences/git.png" class="exp-icon" />
+                <img src="./assets/experiences/redis.png" class="exp-icon" />
+                <img src="./assets/experiences/mysql.png" class="exp-icon" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="project bg-p">
+                <img
+                  src="./assets/projects/qplay.png"
+                  style="
+                    height: 60%;
+                    width: 50%;
+                    margin-bottom: 5px;
+                    border-radius: 10px;
+                  "
+                />
+                <h5>QPlay</h5>
+                <p>Biggest Czechoslovakia Minecraft server</p>
+                <img src="./assets/experiences/java.png" class="exp-icon" />
+                <img src="./assets/experiences/git.png" class="exp-icon" />
+                <img
+                  src="./assets/experiences/postgresql.png"
+                  class="exp-icon"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="project bg-p">
+                <img src="./assets/projects/mnrp.png" class="project-img" />
+                <h5>MNRP</h5>
+                <p>Czechoslovakia FiveM roleplay server</p>
+                <img src="./assets/experiences/lua.png" class="exp-icon" />
+                <img src="./assets/experiences/ts.svg" class="exp-icon" />
+                <img src="./assets/experiences/php.png" class="exp-icon" />
+                <img src="./assets/experiences/mysql.png" class="exp-icon" />
+                <img src="./assets/experiences/git.png" class="exp-icon" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script src="./assets/script.js"></script>
