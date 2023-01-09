@@ -60,3 +60,16 @@ section {
     height: 100%;
 }
 
+.footer-img {
+    height: 16px;
+}
+
+.sites-link {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
